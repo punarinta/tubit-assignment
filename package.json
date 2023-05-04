@@ -1,0 +1,25 @@
+{
+  "name": "tubit-test-assignment",
+  "version": "1.0.0",
+  "description": "Tubit test assignment",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1"
+  },
+  "jest": {
+    "verbose": true,
+    "rootDir": "./",
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
